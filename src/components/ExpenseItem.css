@@ -1,0 +1,24 @@
+.expense_item {
+  background-color: dimgray;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense_item__title {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.expense_item__amount {
+  background-color: darkslateblue;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 50px;
+  font-size: 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+}

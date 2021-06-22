@@ -1,0 +1,27 @@
+input[placeholder="123,456.78"]::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: transparent;
+}
+input[placeholder="123,456.78"]:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: transparent;
+  opacity: 1;
+}
+input[placeholder="123,456.78"]::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: transparent;
+  opacity: 1;
+}
+input[placeholder="123,456.78"]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: transparent;
+}
+input[placeholder="123,456.78"]::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: transparent;
+}
+
+input[placeholder="123,456.78"]::placeholder {
+  /* Most modern browsers support this now. */
+  color: transparent;
+}
